@@ -65,7 +65,7 @@ module func_tb;
     end
 
     always begin
-        #10
+        #5
         clk_i = !clk_i;
     end
 
